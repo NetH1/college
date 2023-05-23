@@ -5,14 +5,14 @@ import { Link } from 'react-router-dom'
 const Header = ({ content }) => {
     const bd = 'border-b border-b-[#4F4F4F] border-t border-t-[#4F4F4F] border-dashed'
     return (
-        <header className="header">
-            <nav className="container mx-auto flex justify-center py-6">
+        <header className="header ">
+            <nav className="container mx-auto flex justify-center py-6 sticky">
                 <img src={logo} alt="" />
                 <div className="ml-9">
                     <ul className={`nav flex items-center text-white font-bold gap-x-10 ${bd}`}>
                         <li className="py-2"> <Link to='/'>Главная</Link></li>
                         <li className="py-2"> <Link to='/about'>Дизельное топливо</Link></li>
-                        <li className="py-2"> <Link to='/news'>Мини</Link>-АЗС</li>
+                        <li className="py-2"> <Link to='/news'>Мини-АЗС</Link></li>
                         <li className="py-2"> <Link to='/last'>Печное топливо</Link></li>
                         <li className="py-2"> <Link to='/engine'>Судовое топливо</Link></li>
                         <li className="py-2"> <Link to='/blog'>Блог</Link></li>

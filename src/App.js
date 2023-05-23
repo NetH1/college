@@ -17,12 +17,12 @@ function App() {
       <Route path='/' element={<Layout />}>
         <Route index element={<HomePage />} />
         <Route path='/about' element={<AboutPage />} />
-        <Route path='/contacts' element={<ContactsPage />} />
         <Route path='/news' element={<NewsPage />} />
-        <Route path='/azs' element={<AzsPage />} />
-        <Route path='/blog' element={<BlogPage />} />
-        <Route path='/engine' element={<EnginePage />} />
         <Route path='/last' element={<LastPage />} />
+        <Route path='/engine' element={<EnginePage />} />
+        <Route path='/blog' element={<BlogPage />} />
+        <Route path='/azs' element={<AzsPage />} />
+        <Route path='/contacts' element={<ContactsPage />} />
       </Route>
     </Routes>
     </>
