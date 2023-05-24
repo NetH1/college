@@ -1,6 +1,16 @@
 import React from 'react';
 import Header from '../components/Header';
 import NewsContainers from '../NewsComponents/NewsContainers';
+import MiniAZS from '../NewsComponents/MiniAZS';
+import ExampleContainer from '../NewsComponents/ExampleContainer';
+import Sertifications from '../NewsComponents/Sertifications';
+import GeoghraphyMap from '../components/GeoghraphyMap';
+import Clients from '../components/ClientsComponent';
+import Reviews from '../components/Reviews';
+import News from '../components/NewsComponent';
+import Relations from '../components/Relations';
+import Team from '../components/Team';
+import BigMap from '../components/BigMap';
 
 const NewsPage = () => {
     return (
@@ -13,6 +23,16 @@ const NewsPage = () => {
                 </div>
             )}/>
             <NewsContainers />
+            <MiniAZS />
+            <ExampleContainer />
+            <Sertifications />
+            <GeoghraphyMap />
+            <Clients />
+            <Reviews />
+            <News />
+            <Relations />
+            <Team />
+            <BigMap />
 
         </>
     );

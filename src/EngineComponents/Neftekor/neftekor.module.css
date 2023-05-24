@@ -1,0 +1,6 @@
+.bg_image{
+    background: url('../c.png') no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    padding: 125px;
+}

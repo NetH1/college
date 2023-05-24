@@ -9,6 +9,7 @@ import AzsPage from './pages/AzsPage';
 import BlogPage from './pages/BlogPage';
 import EnginePage from './pages/EnginePage';
 import LastPage from './pages/LastPage';
+import RecordsPage from './pages/RecordsPage';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/blog' element={<BlogPage />} />
         <Route path='/azs' element={<AzsPage />} />
         <Route path='/contacts' element={<ContactsPage />} />
+        <Route path='/records' element={<RecordsPage />} />
       </Route>
     </Routes>
     </>

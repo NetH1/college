@@ -24,6 +24,20 @@ import manufacturers3 from './ManufacturersImages/manufacturers3.png'
 import manufacturers4 from './ManufacturersImages/manufacturers4.png'
 import manufacturers5 from './ManufacturersImages/manufacturers5.png'
 import bigMap from './bigMap.png'
+import c1 from './NewsImages/c1.png'
+import c2 from './NewsImages/c2.png'
+import c3 from './NewsImages/c3.png'
+import c4 from './NewsImages/c4.png'
+import c5 from './NewsImages/c5.png'
+import c6 from './NewsImages/c6.png'
+
+import s1 from './NewsImages/s1.png'
+import s2 from './NewsImages/s2.png'
+import s3 from './NewsImages/s3.png'
+import s4 from './NewsImages/s4.png'
+import s5 from './NewsImages/s5.png'
+
+import cam2 from './cam2.png'
 
 
 export { 
@@ -34,6 +48,9 @@ export {
     vk, yandex, telegram, whatsapp,
     container1, container2, container3,
     manufacturers1,manufacturers2,manufacturers3,manufacturers4,manufacturers5,
-    bigMap
+    bigMap,
+    c1,c2,c3,c4,c5,c6,
+    s1,s2,s3,s4,s5,
+    cam2,
 
 }
